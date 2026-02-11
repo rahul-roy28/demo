@@ -1,0 +1,14 @@
+{
+  "name": "demo-ci-cd-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple backend and jest testing demo",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
